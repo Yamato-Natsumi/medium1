@@ -1,1 +1,261 @@
 
+a{
+  flex:auto;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  color: black;
+}
+
+body{
+  font-family:'Noto Sans JP';
+}
+
+img{
+  max-width: 100%;
+}
+
+h1{
+  font-weight: bold;
+}
+
+.nav div, .rogo ,main, .footerWid{
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+img{
+  width:300px;
+}
+
+header{
+  background-color:white;
+  width:100%;
+  height:fit-content;
+  margin: 0 auto;
+  position: fixed;
+  top:0;
+  left: 0;
+  z-index: 2;
+}
+
+.rogo img{
+  width: 180px;
+  padding: 25px 10px;
+}
+
+.nav{
+  display: block;
+  background-color: black;
+  width: 100%;
+  height: 40px;
+}
+
+.nav div{
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 7px 0;
+  padding-left: 15px;
+}
+
+.nav div a{
+  font-size: 14px;
+  padding-right:57px;
+  color: white;
+}
+
+.mainContents{
+  width:100%;
+}
+
+.top{
+  margin:165px 0 80px 0;
+  text-align: center;
+}
+
+.top div{
+  padding: 0 10px;
+}
+
+.top img{
+  width: 100%;
+}
+
+.read{
+  margin: 10px;
+  font-size: 13px;
+  position: relative;
+}
+
+ .read:after{
+  content:" ";
+  left: 0;
+  position: absolute;
+  background-color: black;
+  bottom: 0px;
+  width:100%;
+  height: 1px;
+  transition: .3s;
+}
+
+ .read:hover:after{
+  opacity: 0;
+  visibility: hidden;
+  bottom: -10px;
+}
+
+.top h1{
+  font-size: 16px;
+  text-align: left;
+}
+
+.pick{
+  padding-right: 30px;
+}
+
+.pick h1{
+  font-size: 23px;
+}
+
+.pick img{
+  width: 100%;
+}
+
+.data{
+  margin-bottom:10px ;
+}
+
+.data a{
+  padding-right:10px;
+  font-size: 13px;
+}
+
+.pick p{
+  font-size: 15px;
+  padding: 15px 50px 20px 40px;
+}
+
+.readCenter{
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.prof{
+  text-align: center;
+  margin: 30px 0 60px 0;
+}
+
+.prof img{
+  margin: 0 auto;
+  border-radius: 50%;
+  width: 130px;
+}
+
+.prof h2{
+  margin:30px;
+  font-size: 18px;
+  font-weight:bold;
+}
+
+.prof p{
+  text-align: left;
+  font-size: 13px;
+}
+
+.sub{
+  padding-right: 6px;
+}
+
+h3{
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin: 30px;
+}
+
+.ranking div{
+  margin-bottom: 25px;
+} 
+
+.ranking img{
+  width:100%;
+}
+
+.ranking h1{
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.archive a, .menu div{
+  margin: 0;
+  padding:20px;
+  font-size: 14px;
+  display: block;
+  height: 60px;
+  border-top: solid 1px slategray;
+}
+
+.archive a:last-child, .menu div:last-child{
+  border-bottom: solid 1px slategray;
+}
+
+footer{
+  position: sticky;
+  height:500px;
+  margin-top: 170px;
+  background-color: #f2f2f2;
+}
+
+footer h3{
+  text-align: left;
+  margin-left:0;
+}
+
+.about{
+  font-size: 13px;
+  padding-right: 40px;
+}
+
+.about a{
+  display: block;
+  margin:5px 0;
+}
+
+.menu{
+  padding-right: 40px;
+}
+
+.c{
+  padding-top: 60px;
+  height: 60px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.smTwi{
+  display: none;
+}
+
+.c p{
+padding-bottom: 10px;
+}
+
+@media screen and (max-width:768px){
+  .top div{
+    margin-bottom:30px;
+  }
+
+  .sub{
+    padding:0;
+  }
+  
+  .pick{
+    padding-right: 0;
+  }
+
+  .container-fluid{
+    padding-right: 3px;
+  }
+}
